@@ -381,7 +381,7 @@
 
         <activity android:name=".widget.AnimatedRecyclerView"
                   android:label="@string/animated_recycler_view"
-                  android:theme="@style/Theme.AppCompat">
+                  android:theme="@android:style/Theme.Holo.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.example.android.supportv7.SAMPLE_CODE" />

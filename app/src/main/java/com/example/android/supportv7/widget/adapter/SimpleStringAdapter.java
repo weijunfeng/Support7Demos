@@ -16,15 +16,15 @@
 
 package com.example.android.supportv7.widget.adapter;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.Collections;
 
 public class SimpleStringAdapter extends RecyclerView.Adapter<SimpleStringAdapter.ViewHolder> {
 
@@ -66,8 +66,10 @@ public class SimpleStringAdapter extends RecyclerView.Adapter<SimpleStringAdapte
         String tmp = mValues.get(pos1);
         mValues.set(pos1, mValues.get(pos2));
         mValues.set(pos2, tmp);
-        notifyItemRemoved(pos1);
-        notifyItemInserted(pos2);
+//        notifyItemRemoved(pos1);
+        notifyItemChanged(pos1);
+        notifyItemChanged(pos2);
+//        notifyItemInserted(pos2);
     }
 
     @Override
