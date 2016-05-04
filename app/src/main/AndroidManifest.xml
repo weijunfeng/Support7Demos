@@ -418,7 +418,7 @@
 
         <activity android:name=".widget.StaggeredGridLayoutManagerActivity"
                   android:label="@string/staggered_grid_layout_manager"
-                  android:theme="@style/Theme.AppCompat">
+                  android:theme="@android:style/Theme.Holo.Light">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="com.example.android.supportv7.SAMPLE_CODE" />
