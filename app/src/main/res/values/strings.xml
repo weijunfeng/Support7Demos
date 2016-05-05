@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="activity_sample_code">Support v7 Demos</string>
 
     <!-- MediaRouter -->
@@ -98,7 +98,7 @@
 
     <string name="action_bar_fragment_menu">AppCompat/Action Bar/Fragment Menu</string>
     <string name="action_bar_fragment_menu_msg">Build menus from three fragments, the last one
-        nested, allowing you to hide them to remove them...</string>
+        nested, allowing you to hide them to remove them...　　建立菜单从三个片段,最后一个　　嵌套的,允许你隐藏他们删除它们</string>
     <string name="action_bar_fragment_menu1">Show fragment 1</string>
     <string name="action_bar_fragment_menu2">Show fragment 2</string>
     <string name="action_bar_fragment_menu3">Show nested fragment (within fragment 2)</string>
@@ -113,7 +113,7 @@
         smaller space. Tapping the Action Bar\'s Up button at the left side of the bar will navigate
         up in the hierarchy, represented by the left pane. If you rotate the device to landscape
         mode, on most devices you will see that both panes fit together side by side with no sliding
-        necessary.
+        necessary.这个活动展示了使用滑动窗格。　　内容窗格可能滑落到一边在狭窄的设备上显示左侧窗格　　选择内容。滑动玻璃可以用来配合UI用于更广泛的屏幕中　　更小的空间。攻丝操作栏的按钮在左边栏导航　　层次结构,由左边的面板。如果你旋转设备　　模式,在大多数设备您将看到这两个窗格并排组合在一起,没有滑动　　必要的
     </string>
 
     <string name="toolbar_usage">AppCompat/Toolbar/Toolbar as Action Bar</string>
@@ -185,7 +185,8 @@
     <string name="vertical">vertical</string>
 
     <string name="drawer_layout_activity">Drawer layout</string>
-    <string name="drawer_layout_summary">This activity illustrates the use of sliding drawers. The drawer may be pulled out from the starting edge, which is left on left-to-right locales, with an edge swipe. You can tap the hamburger (three horizontal lines) icon at the starting side of the action bar to open the drawer as well.</string>
+    <string name="drawer_layout_summary">This activity illustrates the use of sliding drawers. The drawer may be pulled out from the starting edge, which is left on left-to-right locales, with an edge swipe. You can tap the hamburger (three horizontal lines) icon at the starting side of the action bar to open the drawer as well.
+    这个活动展示了使用滑动抽屉。抽屉可以从边缘开始,在从左到右的地方,边刷。你可以点击汉堡(三横线)操作栏的图标开始一边打开抽屉</string>
     <string name="drawer_title">Navigation</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
@@ -198,12 +199,13 @@
     <string name="mode_night_alertdialog_title">AppCompat/DayNight/AlertDialog Usage</string>
 
     <string name="list_popup_window_activity">AppCompat/List popup window</string>
-    <string name="list_popup_window_summary">This activity illustrates the use of list popup windows. The popup window is shown by clicking the button above. The checkbox controls the modality. The text area below logs various events - it should log a tap on itself when a non-modal popup window is dismissed by tapping on the log area.</string>
+    <string name="list_popup_window_summary">This activity illustrates the use of list popup windows. The popup window is shown by clicking the button above. The checkbox controls the modality. The text area below logs various events - it should log a tap on itself when a non-modal popup window is dismissed by tapping on the log area.
+    这个活动展示了使用列表弹出窗口。弹出窗口显示,点击上面的按钮。复选框控制形态。下面的文本区域记录各种事件日志点击本身——它应该当一个非模态弹出窗口被利用在日志</string>
     <string name="list_popup_window_button">Show popup!</string>
     <string name="list_popup_window_is_modal">is modal</string>
 
     <string name="popup_menu_activity">AppCompat/Popup menu</string>
-    <string name="popup_menu_summary">This activity illustrates the use of popup menus. The popup menu is shown by clicking the button above. The text area below logs various events.</string>
+    <string name="popup_menu_summary">This activity illustrates the use of popup menus. The popup menu is shown by clicking the button above. The text area below logs various events.这个活动展示了使用弹出菜单。弹出菜单显示,点击上面的按钮。下面的文本区域各种事件日志</string>
     <string name="popup_menu_button">Show popup!</string>
     <string name="popup_menu_highlight">Highlight</string>
     <string name="popup_menu_edit">Edit</string>
