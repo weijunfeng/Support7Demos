@@ -92,7 +92,7 @@ public class Support7Demos extends ListActivity {
                 String nextLabel = prefixPath == null ? labelPath[0] : labelPath[prefixPath.length];
 
                 if ((prefixPath != null ? prefixPath.length : 0) == labelPath.length - 1) {
-                    addItem(myData, nextLabel, activityIntent(
+                    addItem(myData, info.activityInfo.name.replace("com.example.android.supportv7",""), activityIntent(
                             info.activityInfo.applicationInfo.packageName,
                             info.activityInfo.name));
                 } else {
